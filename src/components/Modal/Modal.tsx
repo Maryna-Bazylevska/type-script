@@ -18,9 +18,13 @@ function Modal({ onClose, children }: ModalProps) {
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [onClose]);
-
+  const checkOverlay = (e: React.MouseEvent<HTMLElement>) => {
+    if (e.target === e.currentTarget) {
+      onClose();
+    }
+  };
   return createPortal(
-    <Overlay onClick={onClose}>
+    <Overlay onClick={checkOverlay}>
       <ModalBackdrop>{children}</ModalBackdrop>
     </Overlay>,
     modalRoot
