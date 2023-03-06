@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/type-script_images-finder/static/css/main.073c9b0a.css",
+    "main.js": "/type-script_images-finder/static/js/main.ea6aee27.js",
+    "index.html": "/type-script_images-finder/index.html",
+    "main.073c9b0a.css.map": "/type-script_images-finder/static/css/main.073c9b0a.css.map",
+    "main.ea6aee27.js.map": "/type-script_images-finder/static/js/main.ea6aee27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.ea6aee27.js"
+  ]
+}
